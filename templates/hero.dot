@@ -6,7 +6,7 @@ hero
 !-->
 {{~it.hero :hero:index}}
 <tr>
-  <td background="{{=hero.background}}" valign="top" width="604" align="center" height="480" style="{{=hero.backgroundColor}}; text-align: center;">
+  <td background="{{=hero.background}}" valign="top" width="604" align="center" height="480" style="background-color: {{=hero.backgroundColor}}; text-align: center;">
     <!--[if gte mso 9]>
 
     <v:image xmlns:v="urn:schemas-microsoft-com:vml" id="theImage" style='behavior: url(#default#VML); display:inline-block; position:absolute; height:480px; width:602px; top:0; left:0; border:0; z-index:1;' src="http://static.p1.com/email/images/tantan-email-header.png"/>
