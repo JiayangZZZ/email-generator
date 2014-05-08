@@ -1,1 +1,77 @@
-header.dot
+
+<!--
+
+hero
+
+!-->
+{{~it.hero :hero:index}}
+<tr>
+  <td background="{{=hero.background}}" valign="top" width="604" align="center" height="480" style="{{=hero.backgroundColor}}; text-align: center;">
+    <!--[if gte mso 9]>
+
+    <v:image xmlns:v="urn:schemas-microsoft-com:vml" id="theImage" style='behavior: url(#default#VML); display:inline-block; position:absolute; height:480px; width:602px; top:0; left:0; border:0; z-index:1;' src="http://static.p1.com/email/images/tantan-email-header.png"/>
+
+    <v:shape xmlns:v="urn:schemas-microsoft-com:vml" id="theText" style='behavior: url(#default#VML); display:inline-block; position:absolute; height:480px; width:602px; top:-5; left:-10; border:0; z-index:2;'>
+
+    <![endif]-->
+    <table width="604" cellspacing="0" cellpadding="0" border="0">
+      <tr>
+        <td height="40">
+      </tr>
+      <tr>
+        <td align="center">
+          <img style="margin: 0; border: 0; padding: 0; display: block;" src="http://static.p1.com/email/images/tantan-logo.png">
+        </td>
+      </tr>
+    </table>
+    <table align="center">
+      <tr>
+        <td height="6">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h1 style="color: #d44831; font-size: 60px; font-weight: 100; text-align: center; font-family: 'Helvetica Neue', arial, 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif; margin: 0;">
+            {{=hero.title}}
+          </h1>
+        </td>
+      </tr>
+      <tr>
+        <td height="5">
+      </tr>
+      <tr>
+        <td>
+         <h4 style="color: #424242; font-size: 24px; font-weight: 100; text-align: center; font-family: 'Helvetica Neue', arial, 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;margin: 0;">
+          {{=hero.slogen}}
+         </h4>
+       </td>
+     </tr>
+     <tr>
+        <td height="30">
+        </td>
+      </tr>
+    </table>
+
+    <table  align="center">
+      <tr>
+        <td height="10">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <p style="color: #424242; font-size: 14px; font-weight: 100; text-align: center; font-family: 'Helvetica Neue', arial, 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif; margin: 0px 0px 30px 0px;">免费下载<span style="font-weight:200;">iPhone</span>应用</p>
+        </td>
+      </tr>
+    </table>
+  </td>
+
+  <!--[if gte mso 9]>
+
+  </v:shape>
+
+  <![endif]-->
+
+</tr>
+
+{{~}}
