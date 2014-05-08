@@ -1,1 +1,29 @@
-footer.dot
+
+<!--
+
+footer
+
+!-->
+
+<tr>
+  <td style="font-size: 10px; font-weight: 100; color: #878787;">
+    <table>
+      <tr>
+        <td style="padding-right: 40px;">
+          <p style="color: #a6a6a6; display: inline; font-size: 10px; font-family: 'Helvetica Neue', arial, 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif; padding-bottom: 20px;">
+           {{=footerInfo.copyright}}
+         </p>
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td style="padding-right: 40px; margin-bottom: 30px;">
+          <a href="mailto:{{=footerInfo.emailAddress}}" style="font-size: 10px; font-weight: 100; color:#6699cc; text-decoration: none; font-family: 'Helvetica Neue', arial, 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;">
+            {{=footerInfo.emailName}}
+          </a>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
