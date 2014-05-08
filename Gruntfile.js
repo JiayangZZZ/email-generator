@@ -17,14 +17,14 @@ module.exports = function(grunt) {
       dist: {
         options: {
           variable : 'tmpl',
-          root : __dirname + '/app',
+          root : __dirname + '/build',
           requirejs : true,
           node : true
         },
         src : [
           '**/*.dot'
         ],
-        dest : 'app/public/templates/tmpl.js'
+        dest : 'build/tmpl.js'
       }
     }
   });
