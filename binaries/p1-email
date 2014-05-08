@@ -1,0 +1,28 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var program = require('commander')
+  , pjson = require('../package.json')
+  , cf = require('../configurations/program');
+ // , tmpl = require('../build/tmpl.js');
+
+program
+  .version(pjson.version)
+  .option('-l, --locale <locale>', 'specify locale', String, cf.DEFAULT_LOCALE);
+
+program
+  .command('generate [name]')
+  .description('Search translation keys and values')
+  .action(function(name) {
+    if(name == "invitation"){
+      console.log("hello " + name);
+      // return (tmpl.html);
+      // console.log(tmpl.html);
+    }
+    else console.log("no template for this");
+  });
+
+program.parse(process.argv);

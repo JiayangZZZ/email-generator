@@ -25,7 +25,7 @@ app.get('/', function(req, res) {
   res.send(tmpl.html({
     hero : tmpl.hero(),
     promos : tmpl.promos(),
-    footer : tmpl.footer({ footerInfo : footerInfo })
+    footer : tmpl.footer({ footerInfo : footerInfo})
   }))
 });
 

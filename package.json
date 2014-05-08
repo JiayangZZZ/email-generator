@@ -21,6 +21,7 @@
     "grunt-dot-compiler": "~0.5.12",
     "grunt-contrib-watch": "~0.6.1",
     "requirejs": "~2.1.11",
-    "express": "~4.1.1"
+    "express": "~3.4.8",
+    "commander": "~2.2.0"
   }
 }

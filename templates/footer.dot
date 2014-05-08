@@ -5,6 +5,7 @@ footer
 
 !-->
 
+{{~it.footerInfo :footerInfo:index}}
 <tr>
   <td style="font-size: 10px; font-weight: 100; color: #878787;">
     <table>
@@ -27,3 +28,5 @@ footer
     </table>
   </td>
 </tr>
+
+{{~}}
