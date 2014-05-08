@@ -17,14 +17,17 @@ requirejs.config({
 });
 
 var tmpl = requirejs('./build/tmpl');
+ // , gt = requirejs('./translations/output/' + req.cookies.locale);;
 
 var buttons = require('./components/buttons')
+  , hero = require('./components/hero')
+  , promos = require('./components/promos')
   , footerInfo = require('./components/footerInfo');
 
 app.get('/', function(req, res) {
   res.send(tmpl.html({
-    hero : tmpl.hero(),
-    promos : tmpl.promos(),
+    hero : tmpl.hero({ hero : hero}),
+    promos : tmpl.promos({ promos : promos}),
     footer : tmpl.footer({ footerInfo : footerInfo})
   }))
 });

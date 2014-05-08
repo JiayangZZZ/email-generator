@@ -26,7 +26,11 @@ html
 
           <!-- header -->
           {{=it.hero}}
+
+          <!-- promos -->
           {{=it.promos}}
+
+          <!-- footer -->
           {{=it.footer}}
 
         </table>
