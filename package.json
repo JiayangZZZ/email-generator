@@ -1,0 +1,25 @@
+{
+  "name": "email-generator",
+  "version": "0.0.0",
+  "description": "email generator ===============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JiayangZZZ/email-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JiayangZZZ/email-generator/issues"
+  },
+  "homepage": "https://github.com/JiayangZZZ/email-generator",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-dot-compiler": "~0.5.12",
+    "grunt-contrib-watch": "~0.6.1",
+    "requirejs": "~2.1.11"
+  }
+}
