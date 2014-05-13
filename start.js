@@ -19,8 +19,7 @@ requirejs.config({
 var tmpl = requirejs('./build/tmpl');
  // , gt = requirejs('./translations/output/' + req.cookies.locale);;
 
-var buttons = require('./components/buttons')
-  , hero = require('./components/hero')
+var hero = require('./components/hero')
   , promos = require('./components/promos')
   , footerInfo = require('./components/footerInfo');
 
