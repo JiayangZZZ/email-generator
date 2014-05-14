@@ -4,10 +4,15 @@
  * Module dependencies.
  */
 
-var program = require('commander')
+var requirejs = require('requirejs')
+  , program = require('commander')
   , pjson = require('../package.json')
-  , cf = require('../configurations/program');
- // , tmpl = require('../build/tmpl.js');
+  , cf = require('../configurations/program')
+  , tmpl = requirejs('../build/tmpl');
+
+var hero = require('../components/hero')
+  , promos = require('../components/promos')
+  , footerInfo = require('../components/footerInfo');
 
 program
   .version(pjson.version)
@@ -15,12 +20,17 @@ program
 
 program
   .command('generate [name]')
-  .description('Search translation keys and values')
+  .description('generate email templates')
   .action(function(name) {
-    if(name == "invitation"){
+    this.locale
+    if(name == "tantanInvitation"){
       console.log("hello " + name);
       // return (tmpl.html);
-      // console.log(tmpl.html);
+      console.log(tmpl.html({
+        hero : tmpl.hero({ hero : hero}),
+        promos : tmpl.promos({ promos : promos}),
+        footer : tmpl.footer({ footerInfo : footerInfo})
+      }));
     }
     else console.log("no template for this");
   });
