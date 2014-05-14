@@ -1,4 +1,4 @@
 
 module.exports = {
-  DEFAULT_LOCALE: 'en-US'
+  DEFAULT_LOCALE: 'en'
 }

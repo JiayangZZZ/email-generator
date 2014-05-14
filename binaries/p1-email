@@ -10,9 +10,7 @@ var requirejs = require('requirejs')
   , cf = require('../configurations/program')
   , tmpl = requirejs('../build/tmpl');
 
-var hero = require('../components/hero')
-  , promos = require('../components/promos')
-  , footerInfo = require('../components/footerInfo');
+var footerInfo = require('../components/footerInfo');
 
 program
   .version(pjson.version)
@@ -21,10 +19,11 @@ program
 program
   .command('generate [name]')
   .description('generate email templates')
-  .action(function(name) {
-    this.locale
+  .action(function(name, options) {
+    var hero = require('../components/hero')(this.locale);
+    var promos = require('../components/promos')(this.locale);
     if(name == "tantanInvitation"){
-      console.log("hello " + name);
+      console.log(this.locale + name);
       // return (tmpl.html);
       console.log(tmpl.html({
         hero : tmpl.hero({ hero : hero}),
