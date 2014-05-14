@@ -57,7 +57,7 @@ hero
     </table>
 
     <!-- download buttons -->
-    {{#def.singleButton}}
+  <!--   {{#def.singleButton}} -->
     {{#def.twoButton}}
 
 
