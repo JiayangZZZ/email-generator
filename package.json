@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git://github.com/JiayangZZZ/email-generator.git"
   },
+  "bin": {
+    "p1-email": "./binaries/p1-email"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -24,5 +27,9 @@
     "express": "~3.4.8",
     "commander": "~2.2.0",
     "get-translation": "~0.8.0"
+  },
+  "dependencies": {
+    "requirejs": "~2.1.11",
+    "commander": "~2.2.0"
   }
 }
