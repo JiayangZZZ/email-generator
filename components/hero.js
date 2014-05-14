@@ -1,7 +1,10 @@
 
+var requirejs = require('requirejs')
+  , gt = requirejs('./translations/output/zh.js');
+
 var hero = [{
-  title : '探探',
-  slogen : '发现身边喜欢你的人',
+  title : gt('HERO_TITLE'),
+  slogen : gt('HERO_SLOGEN'),
   background : '',
   backgroundColor : '#f5f6f6'
 }];

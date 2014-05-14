@@ -1,43 +1,57 @@
 {
+  "HERO_TITLE": {
+    "vars": [],
+    "translations": "\"探探\"",
+    "query_translation": "HERO_TITLE",
+    "timestamp": 1400052182751,
+    "id": "2c558a0812de33558b79119907fe7a87"
+  },
+  "HERO_SLOGEN": {
+    "vars": [],
+    "translations": "\"发现身边喜欢你的人\"",
+    "query_translation": "\"发现身边喜欢你的人\"",
+    "timestamp": 1400053036576,
+    "id": "aa65ca6b3b17e30975adc8142c6ea20e"
+  },
   "INVITATION_PROMO_TITLE_1": {
     "vars": [],
-    "translations": [],
-    "query_translation": "INVITATION_PROMO_TITLE_1",
+    "translations": "\"发现身边的人\"",
+    "query_translation": "\"发现身边的人\"",
     "timestamp": 1400051778974,
     "id": "94b97711c73d4a2f73ffa169fa58bff4"
   },
   "INVITATION_PROMO_DESCRIPTION_1": {
     "vars": [],
-    "translations": [],
-    "query_translation": "INVITATION_PROMO_DESCRIPTION_1",
+    "translations": "\"“探探”是一种全新的结交身边的人的方式，给你推荐身边喜欢你的人，如果你也喜欢他们，你们就能认识对方并且开始聊天。\"",
+    "query_translation": "\"“探探”是一种全新的结交身边的人的方式，给你推荐身边喜欢你的人，如果你也喜欢他们，你们就能认识对方并且开始聊天。\"",
     "timestamp": 1400051778974,
     "id": "ce6378b0a647bf1ea758747c90e503d5"
   },
   "INVITATION_PROMO_TITLE_2": {
     "vars": [],
-    "translations": [],
-    "query_translation": "INVITATION_PROMO_TITLE_2",
+    "translations": "\"喜欢or跳过\"",
+    "query_translation": "\"喜欢or跳过\"",
     "timestamp": 1400051778974,
     "id": "b8169da331145dd01e6a4abb4df97889"
   },
   "INVITATION_PROMO_DESCRIPTION_2": {
     "vars": [],
-    "translations": [],
-    "query_translation": "INVITATION_PROMO_DESCRIPTION_2",
+    "translations": "\"探探会显示你周围的人，你可以选择“喜欢”或“跳过”Ta，你的选择Ta是不会知道的。\"",
+    "query_translation": "\"探探会显示你周围的人，你可以选择“喜欢”或“跳过”Ta，你的选择Ta是不会知道的。\"",
     "timestamp": 1400051778974,
     "id": "7b2751b2785e1ef15b967251677fe65a"
   },
   "INVITATION_PROMO_TITLE_3": {
     "vars": [],
-    "translations": [],
-    "query_translation": "INVITATION_PROMO_TITLE_3",
+    "translations": "\"找到了！\"",
+    "query_translation": "\"找到了！\"",
     "timestamp": 1400051778974,
     "id": "1671230651de08f4a016e7bb91da3c97"
   },
   "INVITATION_PROMO_DESCRIPTION_3": {
     "vars": [],
-    "translations": [],
-    "query_translation": "INVITATION_PROMO_DESCRIPTION_3",
+    "translations": "\"一旦你“喜欢”了的人也“喜欢”了你，那么探探会帮你们告诉对方，然后你们就可以开始聊天了。\"",
+    "query_translation": "\"一旦你“喜欢”了的人也“喜欢”了你，那么探探会帮你们告诉对方，然后你们就可以开始聊天了。\"",
     "timestamp": 1400051778974,
     "id": "239dfc2bfc9246db255af60a738b9ff7"
   },
@@ -475,38 +489,5 @@
     "query_translation": "efwedwefdefddqwdedwwedwecdsdewefdwfew",
     "timestamp": 1400051778974,
     "id": "a6dfdc88ead50fa5f12285ee4dead261"
-  },
-  "FIRSTNAME": {
-    "vars": [],
-    "translations": [],
-    "query_translation": "FIRSTNAME",
-    "timestamp": 1400051778974,
-    "id": "f6e55d42a6bed2493fd916ab5e6f454c"
-  },
-  "LASTNAME": {
-    "vars": [],
-    "translations": [],
-    "query_translation": "LASTNAME",
-    "timestamp": 1400051778974,
-    "id": "f85a3ae843712f93bae4bcfa1586e60f"
-  },
-  "YOUR_AGE_IS": {
-    "vars": [
-      "age"
-    ],
-    "translations": [],
-    "query_translation": "YOUR_AGE_IS",
-    "timestamp": 1400051778974,
-    "id": "6b5ea9da186c171d7911b9368976f941"
-  },
-  "YOU_HAVE_NUMBER_OF_CATS_AND_DOGS": {
-    "vars": [
-      "cats",
-      "dogs"
-    ],
-    "translations": [],
-    "query_translation": "YOU_HAVE_NUMBER_OF_CATS_AND_DOGS",
-    "timestamp": 1400051778974,
-    "id": "ffcfaa7233fcf69dc28df07d14a35145"
   }
 }

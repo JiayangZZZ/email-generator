@@ -32,5 +32,83 @@
       "timestamp": 1398244253087,
       "id": "a99c17f4c6537d614a59514ab46e8a87"
     }
+  },
+  "FIRSTNAME": {
+    "en": {
+      "vars": [],
+      "translations": [],
+      "query_translation": "FIRSTNAME",
+      "timestamp": 1400051778974,
+      "id": "f6e55d42a6bed2493fd916ab5e6f454c"
+    },
+    "timestamp": 1400052481087,
+    "zh": {
+      "vars": [],
+      "translations": [],
+      "query_translation": "FIRSTNAME",
+      "timestamp": 1400051778974,
+      "id": "f6e55d42a6bed2493fd916ab5e6f454c"
+    }
+  },
+  "LASTNAME": {
+    "en": {
+      "vars": [],
+      "translations": [],
+      "query_translation": "LASTNAME",
+      "timestamp": 1400051778974,
+      "id": "f85a3ae843712f93bae4bcfa1586e60f"
+    },
+    "timestamp": 1400052481087,
+    "zh": {
+      "vars": [],
+      "translations": [],
+      "query_translation": "LASTNAME",
+      "timestamp": 1400051778974,
+      "id": "f85a3ae843712f93bae4bcfa1586e60f"
+    }
+  },
+  "YOUR_AGE_IS": {
+    "en": {
+      "vars": [
+        "age"
+      ],
+      "translations": [],
+      "query_translation": "YOUR_AGE_IS",
+      "timestamp": 1400051778974,
+      "id": "6b5ea9da186c171d7911b9368976f941"
+    },
+    "timestamp": 1400052481087,
+    "zh": {
+      "vars": [
+        "age"
+      ],
+      "translations": [],
+      "query_translation": "YOUR_AGE_IS",
+      "timestamp": 1400051778974,
+      "id": "6b5ea9da186c171d7911b9368976f941"
+    }
+  },
+  "YOU_HAVE_NUMBER_OF_CATS_AND_DOGS": {
+    "en": {
+      "vars": [
+        "cats",
+        "dogs"
+      ],
+      "translations": [],
+      "query_translation": "YOU_HAVE_NUMBER_OF_CATS_AND_DOGS",
+      "timestamp": 1400051778974,
+      "id": "ffcfaa7233fcf69dc28df07d14a35145"
+    },
+    "timestamp": 1400052481087,
+    "zh": {
+      "vars": [
+        "cats",
+        "dogs"
+      ],
+      "translations": [],
+      "query_translation": "YOU_HAVE_NUMBER_OF_CATS_AND_DOGS",
+      "timestamp": 1400051778974,
+      "id": "ffcfaa7233fcf69dc28df07d14a35145"
+    }
   }
 }
