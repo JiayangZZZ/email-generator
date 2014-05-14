@@ -16,8 +16,8 @@ requirejs.config({
   nodeRequire : require
 });
 
-var tmpl = requirejs('./build/tmpl');
- // , gt = requirejs('./translations/output/' + req.cookies.locale);;
+var tmpl = requirejs('./build/tmpl')
+ ,gt = requirejs('./translations/output/');
 
 var hero = require('./components/hero')
   , promos = require('./components/promos')
@@ -30,6 +30,16 @@ app.get('/', function(req, res) {
     footer : tmpl.footer({ footerInfo : footerInfo})
   }))
 });
+
+var firstnameLabel = gt('FIRSTNAME')
+  , lastnameLabel = gt('LASTNAME')
+  // Pass in variables
+  , age = 7
+  , yourAgeIsLabel = gt('YOUR_AGE_IS', { age : age });
+  // Pass in multiple variables
+  , cats = 2
+  , dogs = 3
+  , catsAndDogsLabel = gt('YOU_HAVE_NUMBER_OF_CATS_AND_DOGS', { cats : cats, dogs : dogs});
 
 http.createServer(app).listen(app.get('port'), function() {
   console.log('Server started on port: ' + app.get('port'));

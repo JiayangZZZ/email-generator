@@ -26,6 +26,22 @@ module.exports = function(grunt) {
         ],
         dest : 'build/tmpl.js'
       }
+    },
+
+    translate: {
+      dist: {
+        options: {
+          config : './translations',
+          requirejs : true,
+          defaultLanguage : 'en', // grunt-translate use it to update translation.
+          output : './translations/output',
+          src : ['**/*.js', '!./vendor/**/*.js'],
+          interface: {
+            autoOpen : false,
+            port     : 3001
+          }
+        }
+      }
     }
   });
 

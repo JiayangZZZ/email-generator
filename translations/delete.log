@@ -1,0 +1,36 @@
+{
+  "TOS__TITLE": {
+    "en": {
+      "vars": [],
+      "translations": "\"Terms of Service\"",
+      "query_translation": "TOS__TITLE",
+      "timestamp": 1398244253087,
+      "id": "280bf66f7a88413439edde1b4f5b15c8"
+    },
+    "timestamp": 1400051778974,
+    "zh": {
+      "vars": [],
+      "translations": "\"用户协议\"",
+      "query_translation": "TOS__TITLE",
+      "timestamp": 1398244253087,
+      "id": "280bf66f7a88413439edde1b4f5b15c8"
+    }
+  },
+  "LANDING__TITLE": {
+    "en": {
+      "vars": [],
+      "translations": "\"Tantan\"",
+      "query_translation": "LANDING__TITLE",
+      "timestamp": 1398244253087,
+      "id": "a99c17f4c6537d614a59514ab46e8a87"
+    },
+    "timestamp": 1400051778974,
+    "zh": {
+      "vars": [],
+      "translations": "\"探探\"",
+      "query_translation": "LANDING__TITLE",
+      "timestamp": 1398244253087,
+      "id": "a99c17f4c6537d614a59514ab46e8a87"
+    }
+  }
+}
